@@ -1,0 +1,186 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+#home{
+  height:90vh;
+  background: linear-gradient(to right,
+  rgb(211, 229, 239) 0%,
+  rgb(211, 229, 239) 50%,
+  white 50%,
+  white 100%);
+}
+.input{
+  padding:10px;
+  border:none;
+    border-bottom: 1px solid black;
+  color:black;
+  font-size: medium;
+  width:300px;
+
+}
+
+
+#contact-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size:xx-large;
+}
+ .contact_form{
+  border: none;
+  border-bottom: 1px solid black;
+  
+ }
+ 
+ .contact_form_container1{
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+
+ .contact_info_item{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 3px 5px;
+  background-color: white;
+  flex-wrap: wrap;
+ }
+
+
+
+
+#textarea{
+  border-radius: 10px;
+  width:50%;
+  margin-left: 25%;
+  
+}
+
+#submit{
+    margin-left: 30%;
+}
+
+#contact_form_email{
+  width:20%;
+}
+#contact_form_phone{
+  width:20%;
+}
+#contact_form_name{
+  width:20%;
+}
+.img{
+  background-size: cover;
+  width:200px;
+  height:200px;
+
+}
+
+.worklink{
+  text-decoration: none;
+  color: rgb(52, 50, 50);
+ 
+}
+
+.navbar-navbar{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.navbar-container{
+ 
+  width:100%;
+  height:10vh;
+  background-color:rgb(237, 241, 245);
+  
+}
+.navbar{ 
+  list-style: none;
+  
+  font-size: medium;
+  
+}
+.nav-link{
+  color: black;
+
+}
+.nav-link:hover{
+  color:lightslategray;
+  
+}
+
+.signin-content{
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:4px;
+  margin-bottom: 4px;
+  background-color: white;
+  flex-wrap: wrap;
+ 
+}
+.signup-content,.contact_info_item ,.contact_form_container,.about-content{
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:4px;
+  margin-bottom: 4px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+  
+
+
+
+
